@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+header {
+  background-color: #987d9a;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+header .logo img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+header .logo span {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Poppins", serif;
+  color: #eeceb9;
+}
+
+header nav {
+  margin-left: auto;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fefbd8;
+  font-weight: bold;
+  font-family: "Nunito", serif;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #fefbd8;
+  font-size: 22px;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  margin-right: 20px;
+}
+
+header nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: #eeceb9;
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+header nav a:hover {
+  font-size: inherit;
+  transition: none;
+  color: #eeceb9;
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+header nav button {
+  background-color: transparent;
+  border: none;
+  color: #fefbd8;
+  font-weight: bold;
+  font-family: "Nunito", serif;
+  font-size: 22px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav button::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  font-size: 22px;
+  background-color: #fefbd8;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  margin-right: 20px;
+}
+
+header nav button:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  font-size: 22px;
+  background-color: #eeceb9;
+  margin-right: 20px;
+}
+
+header nav button:hover {
+  font-size: inherit;
+  transition: none;
+  color: #eeceb9;
+  font-size: 22px;
+  margin-right: 20px;
+}

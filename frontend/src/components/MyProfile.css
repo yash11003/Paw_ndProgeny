@@ -1,0 +1,58 @@
+.pet-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px; 
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto; 
+  height: 100vh;
+}
+
+.pet-card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pet-image h2 {
+  color: #987d9a;
+  margin-bottom: 5px;
+  font-family: 'Poppins', serif;
+  font-weight: 600;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.pet-details p {
+  padding-left: 50px;
+  text-align: left;
+  color: #808080;
+  margin-bottom: 5px; 
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+}
+
+.pet-details .breed,
+.pet-details .gender {
+  font-size: 16px;
+}
+
+.pet-details button {
+  padding: 5px 10px;
+  background-color: #987d9a; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px; 
+}
+.no-pets-message {
+  padding-top: 100px;
+  text-align: center;
+}

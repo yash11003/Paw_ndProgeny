@@ -1,0 +1,45 @@
+.petCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+  
+.petImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+  
+
+.petDetails h2 {
+    color: #987d9a;
+    margin-bottom: 10px;
+    font-family: 'Poppins', serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+  
+.petDetails p {
+    color: #808080;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+  
+.detailsButton {
+    padding: 10px 20px;
+    background-color: #987d9a; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+  
